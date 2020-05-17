@@ -1,0 +1,58 @@
+// //================================================================
+// // Equations to help us design our websites
+// // =================================================================
+//
+//
+// //================================================================
+// // this will claculate from pixels to em units for us
+// // =================================================================
+//
+// $max-width:1000px;
+// .percentage-to-use {
+// 	width: px-to-pc(800px); //inside () enter the number of pixels you want and it will claculate the percentage for you.
+// }
+//
+// //================================================================
+// // this will claculate from pixels to em units for us
+// // =================================================================
+//
+// $base-font-size: 16px;
+// .em-font {
+// 	font-size: px-to-em(20px); //inside () enter the number of pixels you want and it will claculate the em units for you.
+// }
+//
+//
+// //================================================================
+// // this will claculate from pixels to rem units for us
+// // =================================================================
+//
+// $secondary-font-size: 16px;
+// .rem-font {
+// 	font-size: px-to-rem(16px); //inside () enter the number of pixels you want and it will claculate the em units for you.
+// }
+//
+//
+// // media-queries
+//
+// // =====================================================
+// // to add two equal items per line inside a flex-box
+// // =====================================================
+//
+// // @media (min-width: 768px) {
+// // 	.two-items-per-line {
+// // 		@include center;
+// // 		@include width;
+// // 		flex: 1 per-line(2);
+// // 	}
+//
+// // =====================================================
+// // to add three equal items per line inside a flex-box
+// // =====================================================
+//
+// @media (min-width: 992px) {
+// 	.three-items-per-line {
+// 		@include center;
+// 		@include width;
+// 		flex-basis: per-line(3); }
+// 	}
+// }

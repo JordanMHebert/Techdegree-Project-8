@@ -1,0 +1,10 @@
+/* styling for the header at 320px*/
+
+h1 {
+  color: black;
+  font-size: 1.5em;
+  @include fontTypeOpenSans;
+  @include fontWeightLighter;
+  margin-left: 8em;
+  margin-top: 5em;
+}

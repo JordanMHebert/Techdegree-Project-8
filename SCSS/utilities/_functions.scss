@@ -1,0 +1,31 @@
+// ======================================
+//  Functions
+// ======================================
+
+//================================================================
+// this will claculate from pixels to percentage for us
+// =================================================================
+@function px-to-pc($target, $context: $max-width) {
+	@return ($target / $context) * 100%; }
+
+//================================================================
+// this will claculate from pixels to em units for us
+// =================================================================
+@function px-to-em($target, $context: $base-font-size) {
+	@return ($target / $context) * 1em; }
+
+//================================================================
+// this will claculate from pixels to rem units for us
+// =================================================================
+@function px-to-rem($target, $context: $secondary-font-size) {
+	@return ($target / $context) * 1rem;
+}
+
+//========================================================================
+// this will claculate the needed margins for  flex-box items per row
+// ======================================================================
+@function per-line($items) {
+	$g-pct: px-to-pc($gutter) * 2;
+	$g-totals: $items * $g-pct;
+	@return (100% / $items) - $g-totals;
+}
