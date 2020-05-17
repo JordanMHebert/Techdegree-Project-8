@@ -5,6 +5,24 @@ h1 {
   font-size: 1.5em;
   @include fontTypeOpenSans;
   @include fontWeightLighter;
-  margin-left: 8em;
-  margin-top: 5em;
+  margin-left: 11.5em;
+  margin-top: 3em;
+}
+
+.pageContainer{
+  background-color: #e2e2e2;
+  border: 3px solid yellow;
+  margin: auto;
+  width: 70%;
+  height: 81vh;
+  padding: 10px;
+
+}
+
+.mainContent{
+  border: 3px solid purple;
+}
+
+.directory{
+border: 3px solid blue;
 }
