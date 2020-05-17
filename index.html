@@ -1,42 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- head of document -->
+  <!-- the head of document -->
   <head>
     <meta charset="utf-8" />
     <title>Employee Directory</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
     <link href="css/styles.css" rel="stylesheet" />
   </head>
 
-  <!-- opening body tag -->
+  <!-- the opening body tag for the page -->
   <body>
     <header>
       <h1>AWESOME STARTUP EMPLOYEE DIRECTORY</h1>
     </header>
-    <!-- Div container for entire page -->
-    <div class="pageContainer">
-      <!-- Div for overlay and employee information -->
-      <div id="overlay">
-        <div id="pullUpIndividualEmployeesInformation"></div>
-      </div>
 
-      <!-- main section where 12 employees will be  -->
-      <div class="mainContent" id="gallery">
-        <div class="directory" id="employee1"></div>
-        <div class="directory" id="employee2"></div>
-        <div class="directory" id="employee3"></div>
-        <div class="directory" id="employee4"></div>
-        <div class="directory" id="employee5"></div>
-        <div class="directory" id="employee6"></div>
-        <div class="directory" id="employee7"></div>
-        <div class="directory" id="employee8"></div>
-        <div class="directory" id="employee9"></div>
-        <div class="directory" id="employee10"></div>
-        <div class="directory" id="employee11"></div>
-        <div class="directory" id="employee12"></div>
-      </div>
+    <!-- creating the main content section of the page -->
+    <main class="mainContentofSite" id="mainContent">
+      <!-- the directory will appear here via javascript -->
+    </main>
+    <div class="employeeOverlay">
+      <!-- additional zoomed-in information about the employee will appear here via javascript -->
     </div>
   </body>
-  <!-- JavaScript linked to page -->
+  <!-- the footer section of the page -->
+  <footer>
+    <ul>
+      <a
+        href="https://twitter.com/JordanH62852157"
+        target="_blank"
+        class="twitter"
+        ><img src="img/twitter.png" alt="Twitter logo" class="twitter"
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/jordan-hebert-8a7981193/"
+        target="_blank"
+        class="linkedin"
+        ><img src="img/LinkedIn.png" alt="LinkedIn logo" class="linkedin"
+      /></a>
+      <a href="https://github.com/JordanMHebert" target="_blank" class="github"
+        ><img src="img/github.png" alt="Github logo" class="github"
+      /></a>
+      <a
+        href="https://www.facebook.com/jordan.hebert.5245/"
+        target="_blank"
+        class="facebook"
+        ><img src="img/Facebook.png" alt="Facebook logo" class="facebook"
+      /></a>
+    </ul>
+    <p class="copyright">Website created by: Jordan Hebert</p>
+    <p class="copyright">All Rights reserved &copy; 2020</p>
+  </footer>
+  <!-- JavaScript linked to the page -->
   <scipt src="JavaScript/scripts.js"></scipt>
+  <!-- the closing html tag -->
 </html>

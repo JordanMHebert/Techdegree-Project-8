@@ -1,0 +1,42 @@
+footer {
+  width: 100%;
+  min-height: 1.9em;
+  max-height: 5.2em;
+  padding: 20px 0 40px 20px;
+  position:fixed;
+  bottom: 0px;
+  text-align: center;
+  height: 100vh;
+}
+
+.twitter,
+.linkedin,
+.github,
+.facebook{
+  max-width: 2.8em;
+  margin: auto;
+  width: 50%;
+  padding: .3em;
+}
+
+footer .copyright {
+  margin-top: -.3em;
+  margin-right: 1.25em;
+  font-size: 1em;
+  font-style: italic;
+  color: #0198E1;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+.clearfix {
+  clear: both;
+}
