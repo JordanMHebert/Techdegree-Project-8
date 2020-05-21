@@ -1,3 +1,6 @@
+/* styling for main content */
+
+/* Styling for the Model window */
 body {
   position: relative;
 }
@@ -33,6 +36,7 @@ hidden {
   display: none;
 }
 
+/* Footer Styles  */
 footer {
   width: 100%;
   min-height: 1.9em;
