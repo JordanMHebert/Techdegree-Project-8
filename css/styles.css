@@ -1,28 +1,28 @@
 /* styling for content at 1024px*/
 
 header{
-max-width: 96%;
+max-width: 99%;
 margin: auto;
-margin-top: 1em;
+margin-top: -1.8em;
 background-color: rgba(222, 217, 215,.2);
 padding-bottom: .2em;
 }
 
 h1{
-  margin-left: .7em;
+  margin-left: .9em;
   padding-top: .9em;
-  margin-bottom: -.1em;
+  margin-bottom: -.01em;
 }
 
 .grid-container{
   display: flex;
   flex-wrap: wrap;
-  max-width: 96%;
+  max-width: 99%;
   margin: auto;
   margin-top: .01em;
   background-color: rgba(222, 217, 215,.2);
   justify-content: space-evenly;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .card{
@@ -60,25 +60,72 @@ margin-top: 2em;
   color: #a4a6a7;
 }
 
+/* Footer Styles  */
+
+
+.footer {
+  max-width: 97%;
+  margin-left: .3em;
+  max-height: 1.5em;
+  background-color: rgba(222, 217, 215,.2);
+  padding: 20px 0 40px 20px;
+  text-align: center;
+  margin-top: 0em;
+  border-top: .1em solid rgba(222, 217, 215,.4)
+}
+
+.twitter,
+.linkedin,
+.github{
+  max-width: 2.4em;
+  margin: auto;
+  margin-top: -1.2em;
+  padding: .3em;
+}
+
+footer .copyright {
+  margin-top: -.3em;
+  margin-left: 1em;
+  margin-right: 1.25em;
+  font-size: .7em;
+  font-style: italic;
+  color: #0198E1;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
 /* styling for content from 1400px - 1500px */
 @media (min-width: 1400px)  {
 
     header{
-    max-width: 90%;
+    max-width: 95%;
     }
 
   .grid-container{
-    max-width: 90%;
+    max-width: 95%;
   }
 
   .card{
     margin-top: 2em;
-    width: 23em;
+    width: 25em;
   }
 
   img {
-    max-width: 6em;
-    max-height: 6em;
+    max-width: 8em;
+    max-height: 8em;
     margin-left: 2em;
     margin-top: .6em;
   }
@@ -94,6 +141,11 @@ margin-top: 2em;
   .address{
     font-size: .9em;
   }
+
+  .footer{
+    margin-top: 20.8em;
+  }
+
 }
 
 /* styling for content from 1500px - 1900px */
@@ -133,6 +185,11 @@ margin-top: .5em;
 .address{
   font-size: 1em;
 }
+
+.footer{
+  margin-top: 17em;
+}
+
 }
 
 /* styling for content from 1900px and above */
@@ -211,46 +268,4 @@ body {
 
 hidden {
   display: none;
-}
-
-/* Footer Styles  */
-footer {
-  width: 100%;
-  max-height: .8em;
-  padding: 20px 0 40px 20px;
-  bottom: 0px;
-  text-align: center;
-  height: 100vh;
-}
-
-.twitter,
-.linkedin,
-.github,
-.facebook{
-  max-width: 2.8em;
-  margin: auto;
-  width: 50%;
-  padding: .3em;
-}
-
-footer .copyright {
-  margin-top: -.3em;
-  margin-right: 1.25em;
-  font-size: 1em;
-  font-style: italic;
-  color: #0198E1;
-}
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline-block;
-}
-
-.clearfix {
-  clear: both;
 }
