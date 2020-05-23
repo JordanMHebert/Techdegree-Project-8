@@ -9,7 +9,7 @@ padding-bottom: .2em;
 }
 
 h1{
-  margin-left: 1.3em;
+  margin-left: .7em;
   padding-top: .9em;
   margin-bottom: -.1em;
 }
@@ -31,72 +31,52 @@ h1{
   border: 1px solid #e0e0e0;
   background-color: #ffffff;
   width: 19em;
-  height: 7.5em;
+  height: 9.1em;
   border-radius: .5em;
 }
 
 img {
   border-radius: 50%;
-  max-width: 5.2em;
-  max-height: 5.2em;
+  max-width: 6.5em;
+  max-height: 6.5em;
   margin-left: 1em;
-  margin-top: .8em;
+  margin-top: 1.2em;
+  margin-bottom: 1.5em;
 }
 
 .text-container{
-margin-left: 1em;
+margin-left: .8em;
+margin-top: 2em;
 }
 
 .name{
   margin-bottom: .5em;
+  font-size: 1.2em;
 }
 .email,
 .address{
-  font-size: .8em;
+  font-size: .75em;
   margin-top: -.5em;
   color: #a4a6a7;
 }
 
-/* styling for content from 1400px - 1550px */
+/* styling for content from 1400px - 1500px */
 @media (min-width: 1400px)  {
 
     header{
     max-width: 90%;
-    margin: auto;
-    margin-top: 1em;
-    background-color: rgba(222, 217, 215,.2);
-    padding-bottom: .2em;
-    }
-
-    h1{
-      margin-left: 1.3em;
-      padding-top: .9em;
-      margin-bottom: -.1em;
     }
 
   .grid-container{
-    display: flex;
-    flex-wrap: wrap;
     max-width: 90%;
-    margin: auto;
-    margin-top: .01em;
-    background-color: rgba(222, 217, 215,.2);
-    justify-content: space-evenly;
-    padding-bottom: 2em;
   }
 
   .card{
-    display: flex;
     margin-top: 2em;
-    border: 1px solid #e0e0e0;
-    background-color: #ffffff;
     width: 23em;
-    height: 7.5em;
-    border-radius: .5em;
   }
 
   img {
-    border-radius: 50%;
     max-width: 6em;
     max-height: 6em;
     margin-left: 2em;
@@ -108,27 +88,90 @@ margin-left: 1em;
   }
 
   .name{
-    margin-bottom: .5em;
     font-size: 1.5em;
   }
   .email,
   .address{
     font-size: .9em;
-    margin-top: -.5em;
-    color: #a4a6a7;
   }
-
 }
 
-/* styling for content from 1550px - 1900px */
-@media (min-width: 1550px) {
+/* styling for content from 1500px - 1900px */
+@media (min-width: 1500px) {
 
+h1{
+  margin-left: 1em;
 }
 
+.grid-container{
+  max-width: 90%;
+}
 
+.card{
+  margin-top: 1em;
+  width: 26em;
+  height: 9em;
+}
+
+img {
+  max-width: 7.5em;
+  max-height: 7.5em;
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.text-container{
+margin-left: 1.2em;
+margin-top: .5em;
+}
+
+.name{
+  font-size: 1.6em;
+}
+.email,
+.address{
+  font-size: 1em;
+}
+}
 
 /* styling for content from 1900px and above */
 @media (min-width: 1900px) {
+
+  h1{
+    margin-left: 1.3em;
+  }
+
+  .grid-container{
+    max-width: 90%;
+  }
+
+  .card{
+    margin-top: 1em;
+    width: 32.5em;
+    height: 9.3em;
+  }
+
+  img {
+    max-width: 8em;
+    max-height: 8em;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+  }
+
+  .text-container{
+  margin-left: 1.2em;
+  margin-top: .5em;
+  }
+
+  .name{
+    font-size: 1.6em;
+  }
+  .email,
+  .address{
+    font-size: 1em;
+  }
 
 }
 
@@ -173,8 +216,7 @@ hidden {
 /* Footer Styles  */
 footer {
   width: 100%;
-  min-height: 1.9em;
-  max-height: 5.2em;
+  max-height: .8em;
   padding: 20px 0 40px 20px;
   bottom: 0px;
   text-align: center;
