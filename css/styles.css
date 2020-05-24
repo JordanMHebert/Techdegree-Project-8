@@ -141,7 +141,7 @@ body {
   display: none;
 }
 
-@media (min-width:320px) {
+@media (min-width:375px) {
   .card{
     margin-top: 1em;
     width: 21em;
