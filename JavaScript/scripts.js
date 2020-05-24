@@ -8,11 +8,11 @@ const modalContainer = document.querySelector(".modal-content");
 const modalClose = document.querySelector(".modal-close");
 
 // fetch data from API
-fetch(urlAPI);
-.then(res => res.json());
-.then(res => res.results);
-.then(displayEmployees);
-.catch(err => console.log(err));
+fetch(urlAPI)
+.then(res => res.json())
+.then(res => res.results)
+.then(displayEmployees)
+.catch(err => console.log(err))
 
 //code to create employee information
 
@@ -70,7 +70,7 @@ ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}</p>
 
 overlay.classList.remove("hidden");
 modalContainer.innerHTML = modalHTML;
-};
+}
 
 // code to add an event listener
 
@@ -80,7 +80,7 @@ gridContainer.addEventListener('click', e => {
 if (e.target !== gridContainer) {
 
 // select the card element based on its proximity to actual element
-clicked
+//clicked
 const card = e.target.closest(".card");
 const index = card.getAttribute('data-index');
 displayModal(index);
