@@ -141,6 +141,7 @@ body {
   display: none;
 }
 
+/* styles for mobile */
 @media (min-width:375px) {
   .card{
     margin-top: 1em;
