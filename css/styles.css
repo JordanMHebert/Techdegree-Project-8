@@ -141,6 +141,22 @@ body {
   display: none;
 }
 
+@media (min-width:320px) {
+  .card{
+    margin-top: 1em;
+    width: 21em;
+  }
+
+  /* footer styles */
+  .footer{
+    margin-left: .4em;
+    max-width: 91.2%;
+  }
+
+}
+
+
+
 /* styling for content from 1400px - 1500px */
 @media (min-width: 1400px)  {
 
