@@ -60,51 +60,6 @@ margin-top: 2em;
   color: #a4a6a7;
 }
 
-/* Footer Styles  */
-
-.footer {
-  max-width: 95.1%;
-  margin-left: .95em;
-  max-height: 1.5em;
-  background-color: rgba(222, 217, 215,.2);
-  padding: 20px 0 40px 20px;
-  text-align: center;
-  margin-top: 0em;
-  border-top: .1em solid rgba(222, 217, 215,.4)
-}
-
-.twitter,
-.linkedin,
-.github{
-  max-width: 2.4em;
-  margin: auto;
-  margin-top: -1.2em;
-  padding: .3em;
-}
-
-footer .copyright {
-  margin-top: -.3em;
-  margin-left: 1em;
-  margin-right: 1.25em;
-  font-size: .7em;
-  font-style: italic;
-  color: #0198E1;
-}
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline-block;
-}
-
-.clearfix {
-  clear: both;
-}
-
 /* Styling for the Model window */
 body {
   position: relative;
